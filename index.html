@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1> wellcome to dom</h1>
+    </header>
+    <main id="mainsection"> 
+        <section>
+        <h1> htader part</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cum deserunt ut, autem facilis error totam ratione nobis veritatis illo eveniet reprehenderit itaque quod voluptates. Corrupti sequi reprehenderit reiciendis nemo.</p>
+    </section>
+
+        <section class="identfy">
+            <h1> this is a Dom is boss </h1>
+            <ul id="ullist"> 
+                <li>name</li>
+                <li>id</li>
+                <li>and identfy</li>
+            </ul>
+        </section>
+        <h1 id="Dom"> Document Object Modal</h1>
+
+        <ul id="">
+         <li class="improtent-places"> Nahid</li>
+         <li class="improtent-places"> islam</li>
+         <li class="improtent-places"> address </li>
+         <li class="improtent-places"> rangpur </li>
+        </ul>
+    </main>
+    <script src="Dom/Dom.js">
+    </script>
+    <script src="Dom/section-add.js"></script>
+    <script src="Dom/apled.js"></script>
+    <script>
+        const liCollecton = document.getElementsByTagName('li');
+        for(const li of liCollecton){
+            // console.log(li.innerText);
+        }
+        const allHadding = document.getElementsByTagName('h1');
+        for(const h1 of allHadding){
+            // console.log(h1.innerText)
+        } 
+        document.getElementById('Dom')
+        // document.getElementsByClassName('improtent-places');
+        const places = document.getElementsByClassName('improtent-places');
+        for(const place of places){
+            // console.log(place.innerText)
+        }
+        const alllist = document.querySelectorAll('.identfy');
+        for(allli of alllist){
+            // console.log(alllist)
+        }
+    </script>
+</body>
+</html>
